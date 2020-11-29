@@ -1,8 +1,7 @@
 # HelloWorld
-my first read me file
+list of commands 
 
 
-1. first thing 
-1. second 
-7. third thing 
-19. 4th thing
+1. ls =ls is a Linux shell command that lists directory contents of files and directories. 
+1. ls -la =Same as ls but also lists the hidden files.
+7. vi (file name) = vi is an interactive text editor that is display-oriented.
