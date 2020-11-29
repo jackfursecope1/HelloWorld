@@ -9,3 +9,4 @@ list of commands
 11. `git commit -am ""` =Saves the working directionary.
 14. `git push origin master` = Sves the working directionary to the onlin git area in your respository.
 17. `history` =pulls the last commands you have written and prints.
+19. `python <file name>` = runs the python code.

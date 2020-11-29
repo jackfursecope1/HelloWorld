@@ -1,3 +1,3 @@
 # asking user how they are 
-print("Hello How are you? ")
+input("Hello How are you? ")
 
