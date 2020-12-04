@@ -3,9 +3,13 @@
 #user enteres a list
 
 len_array=int(input("How many numbers in your list? "))
+#makes blank array to store the users list 
 arr=[]
+#for statement to user the amount of times the user eneters values in their list
 for x in range(1, len_array+1):
+	#asks urser for a interger and stores in value
 	value=int(input("Enter a value? "))
+	#adds it to the array
 	arr.append(value)
 
 # Python program for implementation of Bubble Sort 
@@ -26,8 +30,11 @@ def bubbleSort(arr):
             if arr[j] > arr[j+1] : 
                 arr[j], arr[j+1] = arr[j+1], arr[j]  
  
+#runs the bubble sort array
 bubbleSort(arr) 
   
+#prints the sorted array 
 print ("Sorted array is:") 
 for i in range(len(arr)): 
-    print (arr[i]),  
+    print (arr[i]),
+#commor adds space on each line rather than new line  
