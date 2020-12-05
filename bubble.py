@@ -34,7 +34,5 @@ def bubbleSort(arr):
 bubbleSort(arr) 
   
 #prints the sorted array 
-print ("Sorted array is:") 
-for i in range(len(arr)): 
-    print (arr[i]),
+print ("Sorted array is", arr,)
 #commor adds space on each line rather than new line  
